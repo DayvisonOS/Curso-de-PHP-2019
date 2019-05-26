@@ -1,0 +1,14 @@
+Sobre Include e Require
+
+
+Include: Inclui arquivos para serem usados, diretamente no codigo.
+Um arquivo php usualmente.(Tenta funcionar mesmo que o arquivo nao exista,mais completo.)Permite trazer arquivos de um site, bem mais recomendado se houver config de includes no path do php.
+
+
+Require: ele exige que o arquivo chamado exista, caso contrario da erro fatal e para a execução de tudo.
+
+
+require_once
+inclui o arquivo apenas uma vez mesmo que seja chamado mais de uma
+
+include_once
