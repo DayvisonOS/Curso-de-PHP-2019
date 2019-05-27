@@ -1,2 +1,4 @@
 httpd.conf --- arquivo de configurações do Apache
 php.ini --  arquivo de configuração do PHP
+
+modulo 5 aula 21
