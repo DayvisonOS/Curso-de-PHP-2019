@@ -13,7 +13,9 @@ try {
 	//define variavel , cria um novo PDO e passa os parametros.
 
 	echo "Conexao bem Sucedida";
+	echo"dfdfdfdf";
 	//caso esteja ok , vai passar e conseguir se conectar.
+	
 } catch (PDOException $e) {
 	//faz o PDOException e define uma variavel para o catch
 	echo "Falhou Conexao: ".$e->getMessage;
